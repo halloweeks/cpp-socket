@@ -1,3 +1,3 @@
-# cpp-tcp-multithread-server-client
-First you run 'bash build' for compile 
-then you run ./server and ./client
+# Follow compile
+g++ server.cpp -o server -lpthread
+g++ client.cpp -o client
