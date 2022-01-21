@@ -40,7 +40,7 @@ int main(int argc, char const *argv[]){
   }
     
    while(true) {
-  std::string msg="";
+  std::string msg;
   std::cout << "\n[TCP]> ";
   getline(std::cin,msg);
   std::cout << std::endl;
